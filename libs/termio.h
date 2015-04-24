@@ -40,12 +40,6 @@ void printXY(int x, int y, char *letter, int foreColor, int backColor, int bold)
 void clearScreen();
 
 /**
- * Resets terminal colors
- * @example resetColors();
- */
-void resetColors(int x, int y);
-
-/**
  * Tests if termio works
  * @example __testTermIo();
  */
